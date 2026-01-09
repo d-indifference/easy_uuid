@@ -7,3 +7,5 @@ edition = "2024"
 version = "1.19.0"
 features = ["v4"]
 
+[profile.release]
+opt-level = 3
